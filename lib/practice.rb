@@ -1,11 +1,14 @@
 country = "italy"
-if country == "japan"
-    "こんにちは"
+greeting =
+    if country == "japan"
+        "こんにちは"
     elsif country == "us"
-    "hello"
+        "hello"
     elsif country == "italy"
-    "ciao"
+        "ciao"
     else
-    "???"
+        "???"
     end
+
+greeting
 
