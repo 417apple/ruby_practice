@@ -9,7 +9,6 @@ class GateTest < Minitest::Test
         @mikuni = Gate.new(:mikuni)
     end
     
-    
     def test_umeda_to_juso
         ticket = Ticket.new(150)
         @umeda.enter(ticket)
